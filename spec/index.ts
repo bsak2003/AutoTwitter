@@ -12,8 +12,8 @@ const options = commandLineArgs([
         name: 'testFile',
         alias: 'f',
         type: String,
-    },
-]);
+    }
+], { partial: true });
 
 
 // Init Jasmine
