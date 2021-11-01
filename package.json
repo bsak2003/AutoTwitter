@@ -6,9 +6,9 @@
     "build": "ts-node build.ts",
     "lint": "eslint . --ext .ts",
     "start": "node -r module-alias/register ./dist --env=production",
-    "start:dev": "nodemon",
-    "test": "nodemon --config ./spec/nodemon.json",
-    "test:no-reloading": "ts-node -r tsconfig-paths/register ./spec"
+    "dev": "nodemon",
+    "test": "ts-node -r tsconfig-paths/register ./spec",
+    "test:dev": "nodemon --config ./spec/nodemon.json"
   },
   "repository": {
     "type": "git",

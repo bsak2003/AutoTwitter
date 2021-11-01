@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Run tests
-        run: npm run test:no-reloading
+        run: npm test
   release:
     name: Build and publish docker image
     runs-on: ubuntu-latest
