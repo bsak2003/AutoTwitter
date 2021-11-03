@@ -19,7 +19,8 @@
     "bot"
   ],
   "contributors": [
-    "Blazej Sak <blazej.sak@icloud.com> (https://github.com/bsak2003)"
+    "Blazej Sak <blazej.sak@icloud.com> (https://github.com/bsak2003)",
+    "Piotr Trybisz <ptrybisz@gmail.com> (https://github.com/PetrusTryb)"
   ],
   "license": "BSD-3-Clause",
   "nodemonConfig": {
